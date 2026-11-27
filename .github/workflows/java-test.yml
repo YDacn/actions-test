@@ -1,5 +1,11 @@
 name: Java Test
-on: [push]
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'pom.xml'
+      - '.github/workflows/java-test.yml'
 jobs:
   test:
     runs-on: ubuntu-latest
