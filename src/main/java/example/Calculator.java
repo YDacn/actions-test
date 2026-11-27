@@ -7,6 +7,6 @@ public class Calculator {
         if (amount < 0) {
             throw new IllegalArgumentException("amount must be >= 0");
         }
-        return amount * 110 / 100;
+        return amount * 108 / 100;
     }
 }
